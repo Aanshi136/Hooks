@@ -1,0 +1,48 @@
+.pagination-wrapper {
+  margin-top: 20px;
+}
+
+.entries {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.entry-card {
+  padding: 10px;
+  border: 1px solid #ccc;
+  width: 200px;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+  width: 100%;
+  flex-wrap: nowrap;
+}
+
+.pagination button {
+  padding: 5px 10px;
+  background-color: #e67878;
+  border: 1px solid #ddd;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-size: 12px;
+  white-space: nowrap;
+}
+
+.pagination button:hover {
+  background-color: #ca8484;
+}
+
+.pagination button:disabled {
+  background-color: #c18080;
+  cursor: not-allowed;
+}
+
+.pagination span {
+  padding: 5px 10px;
+  font-weight: bold;
+}
